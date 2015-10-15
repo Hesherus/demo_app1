@@ -7,7 +7,8 @@ gem 'rails'
 group :development do
   gem 'sqlite3'
 end
-
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
